@@ -3,7 +3,7 @@
 // CICLO FOREACH
 
 // É a melhor opção para iterações em arrays ou objetos.
-// (falaremos de objetos noutro módulo de PHP)
+// (falaremos de objetos em outro módulo de PHP)
  
 /*
 foreach([array] as $value ou $key => $value) {
