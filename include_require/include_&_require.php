@@ -49,4 +49,30 @@ include_once 'script.php';
 
 require_once 'script.php';
 require_once 'script.php';
+
+/*
+Exemplo: Podemos cria um script ue contém funções,
+importar para este scrit e chamar essas funções.
+*/
+
+echo "<hr>";
+require_once('functions.php');
+
+echo "adicionar: ".adicionar(20,5)."<br>";
+echo "subtrair: ".subtrair(20,5)."<br>";
+echo "multiplicar: ".multiplicar(20,5)."<br>";
+echo "dividir: ".dividir(20,5)."<br>";
+
+//-----------------------------------------------------------
+echo "<hr>";
+
+/*
+Imagina o cenário onde tens um conjunto d dados considerável e queres definir isso dentro
+de um script à parte. Também é possível seguindo o seguinte exemplo:
+*/
+
+$nomes = require_once('dados.php');
+
+echo "<pre>";
+print_r($nomes);
 ?>
