@@ -20,4 +20,9 @@ esses dados vão continuar disponíveis.
 Vejamos como funciona com um exemplo simples.
 */
 
+// Aqui mostra o caminho para onde as SESSÕES ficam armazanedas 'PHPSESSID'
+echo session_save_path();
+
+// O padrão ubunto fica em
+// var/lib/php/sessions
 ?>
